@@ -7,7 +7,7 @@ echo "
 ░░╚██╔╝░╚██╔╝░███████╗███████╗╚█████╔╝╚█████╔╝██║░╚═╝░██║███████╗  ╚█████╔╝╚█████╔╝██████╔╝
 ░░░╚═╝░░░╚═╝░░╚══════╝╚══════╝░╚════╝░░╚════╝░╚═╝░░░░░╚═╝╚══════╝  ░╚════╝░░╚════╝░╚═════╝░
 
-                                                                           Made With ❤️ by Morning_Star"
+                                                                           Made With ❤️ by Saumyajeet Das"
 
                                                        
 echo "The Payload will be created with the help of Metasploit Framework..."
